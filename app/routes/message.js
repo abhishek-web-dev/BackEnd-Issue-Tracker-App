@@ -18,7 +18,7 @@ module.exports.setRouter = (app) => {
 	/**
        * @apiGroup create
        * @apiVersion  1.0.0
-       * @api {post} /api/v1/create/message api to create a new message
+       * @api {post} /api/v1/users/create/message api to create a new message
        *
        *@apiParam {String} authToken The token for authentication.(Send authToken as a body parameter)
        *@apiParam {String} senderId sender id to create a new mesage.(Send senderId as a body parameter)
@@ -59,7 +59,7 @@ module.exports.setRouter = (app) => {
 	/**
        * @apiGroup read
        * @apiVersion  1.0.0
-       * @api {post} /api/v1/get/ten/message api to get ten message
+       * @api {post} /api/v1/users/get/ten/message api to get ten message
        *
        *@apiParam {String} authToken The token for authentication.(Send authToken as a body parameter)
        *@apiParam {String} queryId query id to get all message.(Send userId as a body parameter)

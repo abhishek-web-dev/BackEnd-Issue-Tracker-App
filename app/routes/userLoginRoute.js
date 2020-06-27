@@ -85,7 +85,7 @@ module.exports.setRouter = (app) => {
     /**
      * @apiGroup delete
      * @apiVersion  1.0.0
-     * @api {post} /api/v1/logout api to logout user
+     * @api {post} /api/v1/users/logout api to logout user
      *
      * @apiParam {string} userId userId of the user in body parameter. (required)
      *  @apiParam {String} authToken The token for authentication.(Send authToken as query parameter, body parameter or as a header)
@@ -113,7 +113,7 @@ module.exports.setRouter = (app) => {
       /**
        * @apiGroup read
        * @apiVersion  1.0.0
-       * @api {post} /api/v1/get/all/user api to get all users id
+       * @api {post} /api/v1/users/get/all/user api to get all users id
        *
        *  @apiParam {String} authToken The token for authentication.(Send authToken as a body parameter)
        *

@@ -18,7 +18,7 @@ module.exports.setRouter = (app) => {
 	/**
        * @apiGroup read
        * @apiVersion  1.0.0
-       * @api {post} /api/v1/get/all/notification api to get all user notification
+       * @api {post} /api/v1/users/get/all/notification api to get all user notification
        *
        *@apiParam {String} authToken The token for authentication.(Send authToken as a body parameter)
        *@apiParam {String} userId user id to get all notifications.(Send userId as a body parameter)
@@ -57,7 +57,7 @@ module.exports.setRouter = (app) => {
 	/**
        * @apiGroup read
        * @apiVersion  1.0.0
-       * @api {post} /api/v1/get/ten/notification api to get ten user notification
+       * @api {post} /api/v1/users/get/ten/notification api to get ten user notification
        *
        *@apiParam {String} authToken The token for authentication.(Send authToken as a body parameter)
        *@apiParam {String} userId user id to get all notifications.(Send userId as a body parameter)
