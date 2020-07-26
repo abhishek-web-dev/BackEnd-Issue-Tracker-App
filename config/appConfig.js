@@ -15,7 +15,7 @@ appConfig.env = "dev";
 // port no on which mongodb bydefault running :27017
 // Database name : toDoAppDB
 appConfig.db = {
-  uri: 'mongodb+srv://abhishek:fFLpb8rUUwAMVtrU@cluster0-xz92n.mongodb.net/issueTrackerApp?retryWrites=true&w=majority'
+  uri: 
  
   };
 
