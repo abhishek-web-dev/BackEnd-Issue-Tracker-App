@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const shortid = require('shortid');
-const secretKey = 'someVeryRandomStringThatNobodyCanGuess';
+const secretKey = ;
 
 let generateToken = (retrievedUserDetailsObj, cb) => {
 	try {
